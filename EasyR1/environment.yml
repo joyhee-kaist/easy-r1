@@ -1,0 +1,8 @@
+dependencies:
+  - python=3.10.12
+  - pip
+  - pytorch=2.7.1
+  - torchvision=0.22.1
+  - pytorch-cuda=12.6   # GPU 환경이면 꼭 넣기 (nvidia 채널 필요)
+  - pip:
+      - -r pip_freeze.txt  # 여기서 torch, torchvision, nvidia-* 항목은 삭제
